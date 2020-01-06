@@ -1,3 +1,9 @@
+/*
+3-4. reducer
+
+以下のコードで定義される関数`reducer`は、現在の数値とアクションを受け取って、それに応じて新しい数値を返す関数です。アクションは3種類あり、加算を表すアクションは`{ type: "increment", amount: 数値 }`という形のオブジェクトです。減算を表すアクションは`{ type: "decrement", amount: 数値 }`という形です。数値のリセットを表すアクションは`{ type: "reset", value: 数値 }`という形です。`reducer`に適切な型をつけてください。
+*/
+
 namespace T3_4 {
   const reducer = (state, action) => {
     switch (action.type) {

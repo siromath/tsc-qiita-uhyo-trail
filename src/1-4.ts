@@ -1,3 +1,9 @@
+/*
+1-4. 配列の型
+
+以下のコードで定義される関数`sumOfPos`は、数値の配列を受け取って、そのうち0以上の値の和を返す関数です。適切な型アノテーションをつけてください。
+*/
+
 namespace T1_4 {
   function sumOfPos(arr) {
     return arr.filter(num => num >= 0).reduce((acc, num) => acc + num, 0);

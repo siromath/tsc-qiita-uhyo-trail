@@ -1,3 +1,9 @@
+/*
+3-1. 配列からMapを作る
+
+以下のコードで定義される関数`mapFromArray`は、オブジェクトの配列から`Map`を作って返す関数です。配列から取り出した各オブジェクトを`Map`に登録しますが、その際にキーとして各オブジェクトの指定されたプロパティの値を用います。`mapFromArray`に適切な型を付けてください。
+*/
+
 namespace T3_1 {
   function mapFromArray(arr, key) {
     const result = new Map();
